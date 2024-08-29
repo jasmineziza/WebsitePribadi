@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmine Aziza - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        header img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 120px;
+            height: 120px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        p {
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .contact-info, .education, .volunteering, .skills, .languages {
+            margin-bottom: 20px;
+        }
+
+        .skills, .languages {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills div, .languages div {
+            flex: 1 1 45%;
+            margin: 10px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills div p, .languages div p {
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .section-title {
+            font-size: 1.6em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .section-content {
+            margin-left: 20px;
+        }
+
+        .section-content p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="JasmineAziza.jpg" alt="Jasmine Aziza">
+        <h1>Jasmine Aziza</h1>
+    </header>
+
+    <section id="contact" class="contact-info">
+        <h2>Contact Information</h2>
+        <div class="section-content">
+            <p><strong>Email:</strong> justmine.jasmine.123@gmail.com</p>
+            <p><strong>Phone:</strong> (+62) 82122854877</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jasmine-aziza-6b611b289/" target="_blank">Jasmine Aziza</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/jasmineziza/" target="_blank">@jasmineziza</a></p>
+            <p><strong>WhatsApp:</strong> (+62) 82122854877</p>
+            <p><strong>Address:</strong> Perumahan Bumi Marina Mas, Jl. Marina Emas Barat IV no.50, Keputih, Surabaya, Indonesia</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated Software Engineering student at Institut Teknologi Sepuluh Nopember, enrolled since 2023. With a strong foundation in both academics and extracurricular activities, I balance my technical education with extensive organizational experience. During high school, I actively participated in various organizations and served as the Deputy of the Student Council (MPK). My involvement in organizing numerous school events has honed my leadership, communication, and teamwork skills. I am adept at interacting with diverse groups and easily integrate into new environments. I am always actively looking for opportunities that can broaden my perspective towards the world. I am eager to contribute my skills and experience to new challenges and opportunities in any field.</p>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education and Training</h2>
+        <div class="section-content">
+            <p><strong>Software Engineering Major Student</strong></p>
+            <p>Institut Teknologi Sepuluh Nopember, Surabaya, Indonesia</p>
+            <p><strong>Enrolled:</strong> August 2023</p>
+        </div>
+        <div class="section-content">
+            <p><strong>Science Student</strong></p>
+            <p>MAN 19 Jakarta, Jakarta, Indonesia</p>
+            <p><strong>September 2020 - June 2023</strong></p>
+        </div>
+    </section>
+
+    <section id="volunteering" class="volunteering">
+        <h2>Volunteering Experience</h2>
+        <div class="section-content">
+            <p><strong>Mentor at Inclenation 2024, Surabaya, Indonesia</strong></p>
+            <p>July 10, 2024 – August 17, 2024</p>
+            <p>• Guided new students to become more familiar with the faculty.</p>
+            <p>• Helped students feel comfortable and supported throughout the orientation process.</p>
+            <p>• Provided essential learning and insights to facilitate a smooth transition into university life.</p>
+            <p>• Ensured all necessary information was communicated effectively to new students.</p>
+        </div>
+        <div class="section-content">
+            <p><strong>Public Relations at BTS (Buku Tahunan Sekolah), Jakarta, Indonesia</strong></p>
+            <p>January 2023 – May 2023</p>
+            <p>• Delivered information related to school activities to teachers and students.</p>
+            <p>• Prepared clear and easily understandable informational materials to be conveyed to teachers and students.</p>
+            <p>• Ensured that the information provided was timely and accurate.</p>
+        </div>
+        <div class="section-content">
+            <p><strong>Supervision Division at LANGSADARYA (Gemilang Berbahasa, Pemuda Berkarya), Jakarta, Indonesia</strong></p>
+            <p>December 2022</p>
+            <p>• Managed and oversaw all aspects of the LANGSADARYA competition for students.</p>
+            <p>• Ensured that the preparation and execution of the competition ran smoothly and according to schedule.</p>
+            <p>• Coordinated with the team to determine judging criteria, event schedules, and awards for the winners.</p>
+        </div>
+    </section>
+
+    <section id="organization" class="organization">
+        <h2>Organization Experience</h2>
+        <div class="section-content">
+            <p><strong>Vice President of Class Representative Assembly, Islamic Public Senior High School 19 Jakarta</strong></p>
+            <p>October 31, 2021 – December 12, 2022</p>
+            <p>• Monitored the performance of the student council in carrying out its duties.</p>
+            <p>• Led meetings and maintained relations with school residents.</p>
+            <p>• Coached juniors and managed extracurricular activities, particularly sports events.</p>
+        </div>
+        <div class="section-content">
+            <p><strong>Member of Class Representative Assembly, Islamic Public Senior High School 19 Jakarta</strong></p>
+            <p>March 4, 2021 – October 31, 2021</p>
+            <p>• Organized school activities, maintained extracurriculars, and coordinated sports events.</p>
+        </div>
+    </section>
+
+    <section id="conferences" class="conferences">
+        <h2>Conferences and Seminars</h2>
+        <div class="section-content">
+            <p><strong>LKMM TD XXXI HMTC "TMNT", Surabaya, Indonesia</strong></p>
+            <p>June 22, 2024 – July 29, 2024</p>
+            <p>• Developed and honed project management skills through hands-on experience.</p>
+            <p>• Trained in creating and managing events, including crafting proposals, creating KPIs, and preparing budgets (RAB).</p>
+            <p>• Led as the Director in my group, responsible for strategic planning, public relations, and administration.</p>
+            <p>• Ensured that all strategic, PR, and administrative tasks were effectively managed and implemented throughout the event planning process.</p>
+        </div>
+        <div class="section-content">
+            <p><strong>The 14th International Conference on Information and Communication Technology and System (ICTS) 2023, Surabaya, Indonesia</strong></p>
+            <p>October 4, 2023</p>
+            <p>• Attended a guest lecture from a professor from the Philippines discussing Information and Communication Technology and System.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div>
+            <p><strong>Soft Skills:</strong></p>
+            <p>• Leadership</p>
+            <p>• Communication</p>
+            <p>• Project Management</p>
+            <p>• Teamwork and Collaboration</p>
+            <p>• Emotional Intelligence</p>
+            <p>• Organizational Development</p>
+        </div>
+
+        <div>
+            <p><strong>Hard Skills:</strong></p>
+            <p>• Word</p>
+            <p>• PowerPoint</p>
+            <p>• Canva</p>
+            <p>• Figma</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jasmine Aziza</p>
+    </footer>
+</body>
+</html>
